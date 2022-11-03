@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#">
+        <hr align="left">
+        <label for="name"><strong>Nome: </strong></label>
+        <input id="name" name="name" type="text" placeholder="" size="20" required minlength="1">
+        <br>
+        <hr align="left">
+        <label for="age"><strong>Idade: </strong></label>
+        <input id="age" name="age" type="number" min="0" max="120" required>
+        <br>
+        <hr align="left">
+        <label for="email"><strong>Email: </strong></label>
+        <input id="email" name="email" type="email" pattern="\w+@rethink\.dev" placeholder="...@rethink.dev" required>
+        <br>
+        <hr align="left">
+        <label for="tel"><strong>Telefone: </strong></label>
+        <input id="tel" name="tel" type="tel" pattern="\(\d{2}\)\ \d{1} \d{4}-\d{4}" placeholder="(XX) X XXXX-XXXX" size="20"required>
+        <br>
+        <hr align="left">
+        <label for="date"><strong>Data: </strong></label>
+        <input id="date" name="date" type="date" placeholder="" required>
+        <br>
+    </form>
+</body>
+</html>
